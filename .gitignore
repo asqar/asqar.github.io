@@ -2,3 +2,9 @@ _deploy.yml
 bundle
 bin
 vendor
+
+.sass-cache
+.sass-cache/*
+
+.sass
+.sass/*
