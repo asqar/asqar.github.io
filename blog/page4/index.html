@@ -50,10 +50,10 @@
               // video.setAttribute("autoplay", "");
           
               video.onplay = (event) => {
-                  parent.postMessage('play');
+                  parent.postMessage('play', "*");
               };
               video.onpause = (event) => {
-                  parent.postMessage('paused');
+                  parent.postMessage('paused', "*");
               };
           }
   
