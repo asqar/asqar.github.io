@@ -51,13 +51,9 @@
           
               video.onplay = (event) => {
                   parent.postMessage('play');
-                  window.parent.postMessage('play');
-                  window.postMessage('play');
               };
               video.onpause = (event) => {
                   parent.postMessage('paused');
-                  window.parent.postMessage('paused');
-                  window.postMessage('paused');
               };
           }
   
